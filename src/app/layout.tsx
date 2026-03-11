@@ -14,12 +14,12 @@ const firaCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: "João Felipe | Secure Portfolio Dashboard",
-  description: "Trainee em Cibersegurança e Desenvolvedor focado em operações Blue Team. Visualize meu arsenal, conquistas e experiência através de uma interface híbrida interativa (CLI + GUI).",
+  description: "Analista de Cibersegurança focado em operações Blue Team. Visualize meu arsenal, conquistas e experiência através de uma interface híbrida interativa (CLI + GUI).",
   keywords: ["Cibersegurança", "Desenvolvedor", "Blue Team", "Next.js", "React", "CrowdStrike", "Defesa", "SOC", "João Felipe Silva Freitas"],
   authors: [{ name: "João Felipe Silva Freitas" }],
   openGraph: {
     title: "João Felipe | Secure Portfolio Dashboard",
-    description: "Trainee em Cibersegurança e Desenvolvedor focado em operações Blue Team.",
+    description: "Analista de Cibersegurança focado em operações Blue Team.",
     url: "https://jfelipesfreitas.dev", 
     siteName: "João Felipe Portfolio",
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "João Felipe | Secure Portfolio Dashboard",
-    description: "Trainee em Cibersegurança e Desenvolvedor focado em operações Blue Team.",
+    description: "Analista de Cibersegurança focado em operações Blue Team.",
     images: ["/og-image.png"],
   },
 };

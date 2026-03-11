@@ -47,7 +47,7 @@ export interface PortfolioData {
 export const portfolioData: PortfolioData = {
   profile: {
     name: "João Felipe Silva Freitas",
-    role: "Trainee em Cibersegurança e Desenvolvedor",
+    role: "Analista de Cibersegurança",
     bio: "Estudante de Ciência da Computação (7º período) focado em operações de Blue Team. Atuação focada na redução estratégica da superfície de ataque, mitigação de vulnerabilidades em endpoints, servidores e atuação direta em respostas a incidentes. Busco aliar governança e automação para elevar a maturidade de segurança em ambientes corporativos.",
     contact: "jfelipesfreitas@gmail.com"
   },
@@ -104,7 +104,7 @@ export const portfolioData: PortfolioData = {
     {
       company: "DelTech",
       period: "Nov/2025 - Atual",
-      role: "Trainee em Cibersegurança",
+      role: "Analista de Cibersegurança",
       description: "Responsável pelas análises e respostas a incidentes de segurança (SOC) e redução acentuada de vulnerabilidades críticas. Gerenciamento das soluções Fortinet EDR, Fortinet EMS, Firewall Fortinet, FortiAnalyzer, Ecotrust e SIEM. Implantação de novos processos para atingir a ISO 27001 (NIST) e automação de tarefas rotineiras usando Python."
     },
     {

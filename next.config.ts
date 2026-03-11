@@ -42,16 +42,11 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  // Configs for static export if deploying to GitHub Pages
-  // output: 'export', // Uncomment if deploying via static export
-  
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: securityHeaders,
-      },
-    ]
+  output: 'export',
+  basePath: '/Potif-lio',
+  assetPrefix: '/Potif-lio/',
+  images: {
+    unoptimized: true, // Required for next/image during Export
   },
 };
 
