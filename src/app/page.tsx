@@ -41,7 +41,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col lg:flex-row w-full h-full bg-cover relative bg-brand-bg">
+    <main className="flex flex-col lg:flex-row w-full min-h-screen lg:h-full bg-cover relative bg-brand-bg overflow-x-hidden">
       {/* Background Decorators to mimic Enterprise Dashboard */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none opacity-20">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-brand-neon blur-[120px] rounded-full mix-blend-screen" />
@@ -55,10 +55,10 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-full h-full z-10 p-2 md:p-6 lg:p-8 gap-4 lg:gap-8 max-w-[1920px] mx-auto">
         
         {/* Left Side: Navigation & GUI Content */}
-        <div className="flex flex-col w-full lg:w-[60%] xl:w-[65%] h-full gap-6">
+        <div className="flex flex-col w-full lg:w-[60%] xl:w-[65%] lg:h-full gap-6">
           <Navigation />
           
-          <div className="flex-1 glass-panel rounded-2xl p-6 lg:p-10 overflow-y-auto relative">
+          <div className="flex-1 glass-panel rounded-2xl p-6 lg:p-10 lg:overflow-y-auto relative">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeView}
