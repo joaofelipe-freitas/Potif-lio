@@ -49,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${inter.variable} ${firaCode.variable} antialiased font-sans flex h-screen overflow-hidden selection:bg-brand-neon selection:text-brand-bg`}
+        className={`${inter.variable} ${firaCode.variable} antialiased font-sans flex flex-col min-h-screen lg:h-screen lg:overflow-hidden selection:bg-brand-neon selection:text-brand-bg bg-brand-bg`}
       >
         {children}
       </body>
